@@ -1,4 +1,4 @@
-export function formatAmount(cents: number, currency = 'EUR'): string {
+export function formatAmount(cents: number, currency = 'USD'): string {
   return new Intl.NumberFormat('en-US', { style: 'currency', currency }).format(cents / 100)
 }
 
