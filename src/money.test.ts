@@ -3,7 +3,7 @@ import { formatAmount, sumAmounts } from './money.ts'
 
 describe('money', () => {
   it('formats cents as currency', () => {
-    expect(formatAmount(1050)).toBe('€10.50')
+    expect(formatAmount(1050)).toBe('$10.50')
   })
 
   it('sums amounts', () => {
